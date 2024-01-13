@@ -2,6 +2,7 @@
 import './App.css';
 import Nav from './Nav'
 import Home from './Home';
+import About from './About';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="content">
         <Nav />
         <Home />
+        <About />
       </div>
     </div>
   );
