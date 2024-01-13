@@ -52,19 +52,6 @@
     height: 1.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    animation: arrowBounce 1.8s ease-in-out;
-    animation-iteration-count: infinite;
 }
-
-@keyframes arrowBounce {
-        50% {
-            transform: translateY(50%)
-        }
-
-        to {
-            transform: translateY(0)
-        }
-}
-
 
 

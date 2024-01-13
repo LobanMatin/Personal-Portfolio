@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    right: 0px;
+    top: 0;
+    bottom:0;
+    padding: 1.5%;
+}
+
+.Nav > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    border: none;
+}
+
+button {
+    margin-bottom: 1.1rem;
+    border-radius: 50%;
+    background-color: #4d4d4d;
+    border: 2px solid #181818;
+    height: 1rem;
+    width: 1rem;
+    opacity: 70%;
+    transition: border 0.5s
+}
+
+button:hover {
+    border: 2px solid rgb(255, 255, 255, 1);
+}
+
