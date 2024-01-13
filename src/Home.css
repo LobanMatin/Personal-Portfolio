@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Home {
+    height:100vh;
+}
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+}
+
+.title {
+    align-items: center;
+    margin-top: 15%;
+    border: 1px solid white;
+    min-width: 60%;
+}
+
+.title > h2 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 8em;
+    line-height: 1em;
+}
+
+.title > h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4em;
+    padding-top: 5%;
+}
+
+.profile {
+    margin-top: 15%;
+    border: 1px solid white;
+}
+
+.arrow {
+    text-align: center;
+    position:absolute;
+    bottom: 0px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.arrow p {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.arrow img {
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    animation: arrowBounce 1.8s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowBounce {
+        50% {
+            transform: translateY(50%)
+        }
+
+        to {
+            transform: translateY(0)
+        }
+}
+
+
+
