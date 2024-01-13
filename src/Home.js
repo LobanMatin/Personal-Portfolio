@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import './Home.css';
 import arrowImg from './images/arrow.png'
 
 const Home = () => {
+    const [loading, setLoading] = useState(false);
+
     return (
         <div className="Home">
             <div className="landing">
@@ -19,6 +22,7 @@ const Home = () => {
                 <p>SCROLL</p>
                 <img src={arrowImg} alt='scroll arrow' />
             </div>
+            {setLoading(false)}
         </div>
     );
 }
