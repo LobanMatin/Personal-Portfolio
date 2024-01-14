@@ -18,12 +18,14 @@
 
 .About h3 {
     font-family: 'Barlow Condensed', sans-serif;
-    line-height: 0.8em;
+    line-height: 1em;
     font-style: italic;
     font-size: 8em;
-    color: #9400FF;
+    color: rgba(148, 0, 255, 0.5);
     transform: rotate(-90deg);
-    opacity: 20%;
+    opacity: 80%;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 1);
 }
 
 .About h4 {
