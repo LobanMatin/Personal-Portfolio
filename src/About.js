@@ -3,6 +3,10 @@ import './About.css';
 
 const About = () => {
 
+    const changeBackground = () => {
+        
+    }
+
     const aboutText = "As a second-year student in the Master of Mechatronics Engineering program, \
     I find my true calling in the seamless integration of software and machinery. \
     I derive immense satisfaction from creatively applying programming to tackle \

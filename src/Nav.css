@@ -22,7 +22,7 @@
     border: none;
 }
 
-button {
+.nav-buttons > * {
     margin-bottom: 1.1rem;
     border-radius: 50%;
     background-color: rgba(72, 104, 143, 0.2);
@@ -32,7 +32,7 @@ button {
     transition: border 0.5s
 }
 
-button:hover {
+.nav-buttons > *:hover {
     border: 2px solid rgba(148, 0, 255, 1);
 }
 

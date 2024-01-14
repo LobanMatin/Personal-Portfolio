@@ -1,0 +1,28 @@
+.Projects {
+}
+
+.projects-tab {
+    position: fixed;
+    left:0;
+    bottom:50%;
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+
+.projects-tab > * {
+    height:10rem;
+    width:3rem;
+    position:relative;
+    background-color: rgba(174, 210, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+
+.projects-tab > button > p {
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#27005D;
+    rotate: -90deg;
+    font-weight: 700;
+}
