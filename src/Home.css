@@ -13,7 +13,6 @@
 .title {
     align-items: center;
     margin-top: 15%;
-    border: 1px solid white;
     min-width: 60%;
 }
 
@@ -31,7 +30,6 @@
 
 .profile {
     margin-top: 15%;
-    border: 1px solid white;
 }
 
 .arrow {

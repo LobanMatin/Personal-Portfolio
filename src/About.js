@@ -5,11 +5,10 @@ const About = () => {
 
     const aboutText = "As a second-year student in the Master of Mechatronics Engineering program, \
     I find my true calling in the seamless integration of software and machinery. \
-    Delving into the realm of problem-solving, I derive immense satisfaction from \
-    creatively applying programming to tackle practical challenges. Rooted in efficiency \
-    and pragmatism, my approach aims to deliver innovative solutions. Looking ahead, \
-    I envision making meaningful contributions to the dynamic fields of software \
-    engineering, robotics, and prosthetics."
+    I derive immense satisfaction from creatively applying programming to tackle \
+    practical challenges. Rooted in efficiency and pragmatism, my approach aims to \
+    deliver innovative solutions. Looking ahead, I envision making meaningful \
+    contributions to the fields of software engineering, robotics, and prosthetics."
 
       
 
