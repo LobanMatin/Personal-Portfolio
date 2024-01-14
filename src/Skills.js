@@ -1,4 +1,5 @@
 import './Skills.css';
+import laptopImg from './images/laptop.avif'
 
 const Gallery = () => {
     return (
@@ -6,6 +7,7 @@ const Gallery = () => {
             <h3>SKILLS</h3>
             <div className="skills-content">
                 <div className="laptop">
+                    <img src={laptopImg} alt="laptop-graphic"/>
                 </div>
                 <div className="skills-list">
                     <div className="skill-section">
