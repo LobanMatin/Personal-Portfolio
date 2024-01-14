@@ -25,15 +25,15 @@
 button {
     margin-bottom: 1.1rem;
     border-radius: 50%;
-    background-color: #4d4d4d;
-    border: 2px solid #181818;
+    background-color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0);;
     height: 1rem;
     width: 1rem;
-    opacity: 70%;
-    transition: border 0.5s
+    opacity: 20%;
+    transition: border 0.5s;
 }
 
 button:hover {
-    border: 2px solid rgb(255, 255, 255, 1);
+    border: 2px solid rgb(174, 210, 255, 1);
 }
 
