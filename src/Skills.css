@@ -1,0 +1,28 @@
+.Skills {
+    background-color: #E4F1FF;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Skills h3 {
+    color: #27005D;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 6em;
+    letter-spacing: 0.5em;
+    font-weight: 600;
+}
+
+.skills-content {
+    display: flex;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-section h2 {
+    color: #27005D;
+}
