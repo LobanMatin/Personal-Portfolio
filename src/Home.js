@@ -19,6 +19,7 @@ const Home = () => {
                 <p>SCROLL</p>
                 <img src={arrowImg} alt='scroll arrow' />
             </div>
+            <div className="accent"></div>
         </div>
     );
 }
