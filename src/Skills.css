@@ -1,0 +1,46 @@
+.Skills {
+    background-color: #E4F1FF;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.Skills h3 {
+    color: #27005D;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 6em;
+    letter-spacing: 0.5em;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15%;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.skill-section {
+    width: auto;
+    border: 3px solid #9400FF;
+    height: 30%;
+    width: 20%;
+    background-color: #181818;
+    border-radius: 50px;
+}
+
+.skill-section h2 {
+    color: #9400FF;
+    font-size: 2em;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    line-height: 2em;
+}
