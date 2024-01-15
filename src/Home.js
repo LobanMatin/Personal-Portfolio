@@ -10,9 +10,11 @@ const Home = () => {
                     <h3>Mechatronics Engineering <br/>Student</h3>
                 </div>
                 <div className="profile">
-                    <p>add signature in background and image in foreground <br /> HAVE SIGNATURE AS LOADING SCREEN AS WELL AS WEBSITE LOGO 
-                    <br />AND HAVE BLACK NAV BAR W CONTACTS AT THE TOP <br /> AND HAVE A PROPER CONTACT PAGE<br />
-                    HAVE SIDE TIMELINE LIKE BRANDON JHONSON PAGE, BUT TITLES INSTEAD OF NUMBERS</p>
+                    <div className="headshot"></div>
+                    <div className="landing-contact">
+                        <button className='git-button'></button>
+                        <button className='li-button'></button>
+                    </div>
                 </div>
             </div>
             <div className="arrow">

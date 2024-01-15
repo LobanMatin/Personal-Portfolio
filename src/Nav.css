@@ -22,7 +22,7 @@
     border: none;
 }
 
-button {
+.headings > button {
     margin-bottom: 1.1rem;
     border-radius: 50%;
     background-color: rgba(72, 104, 143, 0.2);
