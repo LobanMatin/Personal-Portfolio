@@ -1,15 +1,29 @@
-.Contact {
+.contact-content {
     background-color: #E4F1FF;
     text-align: center;
-    padding-top: 5%;
     padding-left: 15%;
     padding-right: 15%;
 }
 
-.Contact h3 {
+.contact-content h3 {
     color: #27005D;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 6em;
     font-weight: 600;
     margin-bottom: 5%;
+}
+
+.footer {
+    background-color: #181818;
+    height: fit-content;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1em;
 }
