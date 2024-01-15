@@ -17,13 +17,30 @@
 
 .skills-content {
     display: flex;
+    flex-direction: column;
+    padding-bottom: 15%;
 }
 
 .skills-list {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.skill-section {
+    width: auto;
+    border: 3px solid #9400FF;
+    height: 30%;
+    width: 20%;
+    background-color: #181818;
+    border-radius: 50px;
 }
 
 .skill-section h2 {
-    color: #27005D;
+    color: #9400FF;
+    font-size: 2em;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    line-height: 2em;
 }
