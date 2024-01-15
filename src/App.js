@@ -4,6 +4,7 @@ import Nav from './Nav'
 import Home from './Home';
 import About from './About';
 import Skills from './Skills';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Contact />
       </div>
     </div>
   );
