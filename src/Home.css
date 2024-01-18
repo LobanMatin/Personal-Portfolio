@@ -23,7 +23,7 @@
     color: #AED2FF;
 }
 
-.title > h3 {
+.title > span > *{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 4em;
     padding-top: 5%;
@@ -105,4 +105,16 @@
     height: 1.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    animation: arrowBounce 0.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowBounce {
+    0%, 100% {
+        transform: translateY(0) 
+    }
+    
+    50% {
+        transform: translateY(-5px);
+    }
 }
