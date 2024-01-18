@@ -1,5 +1,6 @@
 import './Home.css';
 import arrowImg from './images/arrow.png'
+import { motion } from 'framer-motion';
 
 const Home = () => {
     return (
