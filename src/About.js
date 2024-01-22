@@ -1,4 +1,7 @@
 import './About.css';
+import { motion, useScroll } from 'framer-motion';
+import { useRef } from 'react';
+
 
 
 const About = () => {
@@ -10,10 +13,9 @@ const About = () => {
     deliver innovative solutions. Looking ahead, I envision making meaningful \
     contributions to the fields of software engineering, robotics, and prosthetics."
 
-      
 
     return (
-        <div className="About">
+        <motion.div className="About">
             <div className="aboutTitle">
                 <h3 className='aboutOne'>"Exploring<br/>Engineering"</h3>
             </div>
@@ -21,7 +23,7 @@ const About = () => {
                 <h4>Navigating the Tech Integration Realm.</h4>
                 <p>{aboutText}</p>
             </div>
-        </div>
+        </motion.div>
     );
 }
  
