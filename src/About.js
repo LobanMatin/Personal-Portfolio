@@ -1,6 +1,6 @@
 import './About.css';
+import { useRef, useState} from 'react';
 import { motion, useScroll } from 'framer-motion';
-import { useRef } from 'react';
 
 
 
@@ -15,7 +15,7 @@ const About = () => {
 
 
     return (
-        <motion.div className="About">
+        <div className="About">
             <div className="aboutTitle">
                 <h3 className='aboutOne'>"Exploring<br/>Engineering"</h3>
             </div>
@@ -23,7 +23,7 @@ const About = () => {
                 <h4>Navigating the Tech Integration Realm.</h4>
                 <p>{aboutText}</p>
             </div>
-        </motion.div>
+        </div>
     );
 }
  
