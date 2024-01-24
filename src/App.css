@@ -6,9 +6,11 @@
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 .App {
   background-color: #181818;
   background-size: cover;
+  scroll-behavior: smooth;
 }
