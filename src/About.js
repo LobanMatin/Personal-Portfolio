@@ -61,8 +61,10 @@ const About = () => {
             </div>
             <div className="aboutText">
                 <div className="aboutBg"></div>
-                <h4>Navigating the Tech Integration Realm.</h4>
-                <p>{aboutText}</p>
+                <div className="aboutBody">
+                    <h4>Navigating the Tech Integration Realm.</h4>
+                    <p>{aboutText}</p>
+                </div>
             </div>
         </div>
     );
